@@ -1,0 +1,30 @@
+form p{
+    float: left;
+    width: 50%;
+}
+html{
+    background: radial-gradient( aqua, teal, hotpink);
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+input{
+    background-color: rgb(233, 164, 16);
+    color: indigo;
+    border: 2px solid  indigo;
+    box-shadow: indigo 3px 3px 3px;
+}
+
+button{
+    background-color: rgb(219, 146, 50);
+    color:  (41, 23, 0);
+    border: 2px solid  black;
+    margin: 2px;
+    font-size: 15px;
+    box-shadow: indigo 3px 3px 3px;
+}
+form{
+    color:rgb(223, 166, 61);
+    font-size: 20px;
+    text-shadow: indigo 3px 3px 3px;
+}

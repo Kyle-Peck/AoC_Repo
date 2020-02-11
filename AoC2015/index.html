@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../Lib/JavaScript-MD5/js/md5.min.js"></script>
+    <script src="day1.js" defer></script>
+    <script src="day2.js" defer></script>
+    <script src="day3.js" defer></script>
+    <script src="day4.js" defer></script>
+    <script src="day5.js" defer></script>
+    <script src="day6.js" defer></script>
+    <script src="day7.js" defer></script>
+    <script src="day8.js" defer></script>
+    <script src="day9.js" defer></script>
+    <script src="day10.js" defer></script>
+
+    <script src="day11.js" defer></script>
+    <script src="day12.js" defer></script>
+    <script src="day13.js" defer></script>
+    <script src="day14.js" defer></script>
+    <script src="day15.js" defer></script>
+    <script src="day16.js" defer></script>
+    <script src="day17.js" defer></script>
+    <script src="day18.js" defer></script>
+    <script src="day19.js" defer></script>
+    <script src="day20.js" defer></script>
+    
+    <script src="day21.js" defer></script>
+    <script src="day22.js" defer></script>
+    <script src="day23.js" defer></script>
+    <script src="day24.js" defer></script>
+    <script src="day25.js" defer></script>
+</head>
+<body>
+    <form>
+        Input: 
+        <input type="text" id="input"><br>
+        Output:
+        <div id="output"></div>
+    </form>
+   
+    <button type="button" name="submit" onclick="day1a()">Solve for Day 1 Part 1</button>
+    <button type="button" name="submit" onclick="day1b()">Solve for Day 1 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day2a()">Solve for Day 2 Part 1</button>
+    <button type="button" name="submit" onclick="day2b()">Solve for Day 2 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day3a()">Solve for Day 3 Part 1</button>
+    <button type="button" name="submit" onclick="day3b()">Solve for Day 3 Part 2</button><br>
+    
+    <button type="button" name="submit" onclick="day4a()">Solve for Day 4 Part 1</button>
+    <button type="button" name="submit" onclick="day4b()">Solve for Day 4 Part 2</button><br>
+    
+    <button type="button" name="submit" onclick="day5a()">Solve for Day 5 Part 1</button>
+    <button type="button" name="submit" onclick="day5b()">Solve for Day 5 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day6a()">Solve for Day 6 Part 1</button>
+    <button type="button" name="submit" onclick="day6b()">Solve for Day 6 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day7a()">Solve for Day 7 Part 1</button>
+    <button type="button" name="submit" onclick="day7b()">Solve for Day 7 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day8a()">Solve for Day 8 Part 1</button>
+    <button type="button" name="submit" onclick="day8b()">Solve for Day 8 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day9a()">Solve for Day 9 Part 1</button>
+    <button type="button" name="submit" onclick="day9b()">Solve for Day 9 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day10a()">Solve for Day 10 Part 1</button>
+    <button type="button" name="submit" onclick="day10b()">Solve for Day 10 Part 2</button><br>
+
+    <!--------------------------------------------------------------------------------------------------->
+
+    <button type="button" name="submit" onclick="day11a()">Solve for Day 11 Part 1</button>
+    <button type="button" name="submit" onclick="day11b()">Solve for Day 11 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day12a()">Solve for Day 12 Part 1</button>
+    <button type="button" name="submit" onclick="day12b()">Solve for Day 12 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day13a()">Solve for Day 13 Part 1</button>
+    <button type="button" name="submit" onclick="day13b()">Solve for Day 13 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day14a()">Solve for Day 14 Part 1</button>
+    <button type="button" name="submit" onclick="day14b()">Solve for Day 14 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day15a()">Solve for Day 15 Part 1</button>
+    <button type="button" name="submit" onclick="day15b()">Solve for Day 15 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day16a()">Solve for Day 16 Part 1</button>
+    <button type="button" name="submit" onclick="day16b()">Solve for Day 16 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day17a()">Solve for Day 17 Part 1</button>
+    <button type="button" name="submit" onclick="day17b()">Solve for Day 17 Part 2</button><br>
+    
+    <button type="button" name="submit" onclick="day18a()">Solve for Day 18 Part 1</button>
+    <button type="button" name="submit" onclick="day18b()">Solve for Day 18 Part 2</button><br>
+    
+    <button type="button" name="submit" onclick="day19a()">Solve for Day 19 Part 1</button>
+    <button type="button" name="submit" onclick="day19b()">Solve for Day 19 Part 2</button><br>
+
+<!-------------------------------------------------------------------------------------------------------------------->
+
+    <button type="button" name="submit" onclick="day20a()">Solve for Day 20 Part 1</button>
+    <button type="button" name="submit" onclick="day20b()">Solve for Day 10 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day21a()">Solve for Day 21 Part 1</button>
+    <button type="button" name="submit" onclick="day21b()">Solve for Day 21 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day22a()">Solve for Day 22 Part 1</button>
+    <button type="button" name="submit" onclick="day22b()">Solve for Day 22 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day23a()">Solve for Day 23 Part 1</button>
+    <button type="button" name="submit" onclick="day23b()">Solve for Day 23 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day24a()">Solve for Day 24 Part 1</button>
+    <button type="button" name="submit" onclick="day24b()">Solve for Day 24 Part 2</button><br>
+
+    <button type="button" name="submit" onclick="day25a()">Solve for Day 25 Part 1</button>
+    <button type="button" name="submit" onclick="day25b()">Solve for Day 25 Part 2</button><br>
+
+
+
+</body>
+</html>
