@@ -13,6 +13,7 @@ function day1a(){
         }
     }
     output.innerHTML = ans;
+    
 }
 
 function day1b(){

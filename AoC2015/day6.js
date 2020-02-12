@@ -12,9 +12,6 @@ function day6a(){
 
     var lightGrid = new Array(1000).fill(0).map(()=>new Array(1000).fill(0));
 
-    //for seperating the start and end coords
-    let toggle = true;
-
     //separated the list into 3 parts, an instruction, a start coord and an end coord
     for(var x in list){
         if (list[x] !== "turn" && list[x] !== "through"){
