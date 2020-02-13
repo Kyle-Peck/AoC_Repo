@@ -13,7 +13,11 @@ function day1a(){
         }
     }
     output.innerHTML = ans;
-    
+    let num = "0";
+    num += 1;
+    num += 2;
+
+    console.log(num);
 }
 
 function day1b(){
